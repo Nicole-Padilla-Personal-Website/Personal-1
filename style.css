@@ -12,7 +12,9 @@ header {
     background-color: #E8FFB7;
     color: #E2A0FF;
     text-align: center;
-    padding: 50px 100px;
+    top: 0%;
+    left: 0;
+    right: 0;
     font-family: Segoe Print;
     font-size: 18pt;
 }
@@ -24,7 +26,14 @@ header {
     text-align: left;
     color: #B7FFD8;
     padding: 10px 50px;
-    font-size: 20pt
+    font-size: 20pt;
+
+.middle2{
+    text-align: left;
+    color: #E2A0FF;
+    padding: 10px 50px;
+    font-size: 20pt;
+}
 }
 @counter-style heart {
     system: cyclic;
@@ -97,3 +106,11 @@ section {
     border-top: 3px solid #E8FFB7;
 }
     
+.project {
+    width: calc(100% - 6em);
+    background: #E8FFB7;
+    color: #E2A0FF;
+    margin: 2em auto;
+    padding: 1em;
+    font-size: 20px;
+}
