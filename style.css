@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
     font-family: Lucidatypewriter;
+    text-align: center;
+    color: #C4F5FC;
+
 }
 
 header {
@@ -11,19 +14,30 @@ header {
     text-align: center;
     padding: 50px 10px;
     font-family: Segoe Print;
+    font-size: 18pt;
 }
-
+.start{
+    font-size: 30pt;
+    padding: 50px 10px;
+}
+.middle{
+    text-align: left;
+    color: #B7FFD8;
+    padding: 10px 50px
+}
 @counter-style heart {
     system: cyclic;
     symbols: "\2661";
     suffix: " ";
 }
 
-ul {
-    list-style-type: heart;
-    list-style-position: outside;
-}
+nav.links {
+    color: #E2A0FF;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
 
+}
 .head {
     width: 15%;
     background-color: #EDF2EF;
@@ -32,14 +46,12 @@ ul {
     margin: 10px;
     padding: 10px;
 }
-.items {
-    float: left;
-    width: 25%;
-    background-color: #EFFFFA;
-    border: 3px #87D68D solid;
-    border-radius: 6px;
-    margin: 12px;
-    padding: 24px;
+.pic1{
+    float: center;
+    width: 20%;
+    height: 500%;
+    margin: 10px;
+    padding: 20px;
 }
 
 .items1 {
