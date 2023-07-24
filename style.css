@@ -12,7 +12,7 @@ header {
     background-color: #E8FFB7;
     color: #E2A0FF;
     text-align: center;
-    padding: 50px 10px;
+    padding: 50px 100px;
     font-family: Segoe Print;
     font-size: 18pt;
 }
@@ -23,7 +23,8 @@ header {
 .middle{
     text-align: left;
     color: #B7FFD8;
-    padding: 10px 50px
+    padding: 10px 50px;
+    font-size: 20pt
 }
 @counter-style heart {
     system: cyclic;
@@ -53,6 +54,23 @@ nav.links {
     margin: 10px;
     padding: 20px;
 }
+.pic2 {
+    float: left;
+    margin: 0 24px 24px 0;
+    height:350px;
+    width: 350px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.pic3 {
+    float:right;
+    margin: 0 24px 24px 0;
+    height:350px;
+    width: 350px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
 .items1 {
     float: left;
@@ -74,8 +92,8 @@ nav.links {
     padding: 10px;
 }
 
-.section {
-    display:inline-block;
-    width:10700px;
-
+section {
+    display:block;
+    border-top: 3px solid #E8FFB7;
 }
+    
