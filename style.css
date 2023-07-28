@@ -108,5 +108,18 @@ section {
 
 .font {
     font-size: 18pt;
-    font-style:
+}
+
+input[type="submit"] {
+background-color: #87D68D;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16pt;
+}
+
+input[type="submit"]:hover {
+    border: none;
+    background-color: darkgreen;
+    cursor: pointer;
 }
