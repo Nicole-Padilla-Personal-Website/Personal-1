@@ -5,6 +5,7 @@
     color: #C4F5FC;
     margin: 0;
     grid-template-rows: auto auto;
+    flex: content;
 
 }
 .wrap {
@@ -122,6 +123,7 @@ section {
 
 .font {
     font-size: 18pt;
+    
 }
 
 input[type="submit"] {
@@ -136,4 +138,12 @@ input[type="submit"]:hover {
     border: none;
     background-color: darkgreen;
     cursor: pointer;
+}
+
+.contact{
+    display: flex;
+    flex-direction:column;
+    background-color: #FFACE4;
+    padding: 20px;
+    position: relative;
 }
