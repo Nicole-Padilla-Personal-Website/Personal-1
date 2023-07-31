@@ -140,6 +140,19 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
+.button{ 
+    background-color: #87D68D;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16pt;
+
+}
+.button:hover {
+    border: none;
+    background-color: darkgreen;
+    cursor: pointer;
+}
 .contact{
     display: flex;
     flex-direction:column;
